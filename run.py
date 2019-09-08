@@ -837,5 +837,5 @@ default:
 if __name__=='__main__':
     c=1
     intent=[]
-    webbrowser.open('http://127.0.0.1:5000/')
+    webbrowser.open('http://0.0.0.0:80/')
     app.run(debug=False)
